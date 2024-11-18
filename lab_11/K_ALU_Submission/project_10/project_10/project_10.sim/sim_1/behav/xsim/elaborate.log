@@ -1,0 +1,40 @@
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 7f50f05e63704af59a379e6c8c6c9b6c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot K_ALU_tb_behav xil_defaultlib.K_ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Student/project_10/project_10.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/Student/project_10/project_10.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.full_subtractor_1_bit
+Compiling module xil_defaultlib.subtract
+Compiling module xil_defaultlib.mult
+Compiling module xil_defaultlib.div
+Compiling module xil_defaultlib.and_gate
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.xor_gate
+Compiling module xil_defaultlib.not_gate
+Compiling module xil_defaultlib.identity_gate
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.left_shift_logical
+Compiling module xil_defaultlib.right_shift_logical
+Compiling module xil_defaultlib.shift_right_arithmetic
+Compiling module xil_defaultlib.full_adder_1_bit
+Compiling module xil_defaultlib.add_4
+Compiling module xil_defaultlib.subtract_4
+Compiling module xil_defaultlib.bit1adder
+Compiling module xil_defaultlib.bit_adder
+Compiling module xil_defaultlib.bit2adder
+Compiling module xil_defaultlib.bit3adder
+Compiling module xil_defaultlib.hamm_wt
+Compiling module xil_defaultlib.K_ALU
+Compiling module xil_defaultlib.K_ALU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot K_ALU_tb_behav

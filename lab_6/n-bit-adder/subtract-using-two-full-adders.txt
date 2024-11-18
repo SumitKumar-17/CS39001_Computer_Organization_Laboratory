@@ -1,0 +1,14 @@
+
+This is the submission for the Question 1 part (e) 
+
+Subtraction using Full Adders:
+To subtract two n-bit numbers, you can use the Full Adder circuit by interpreting the subtraction as an addition problem with the concept of two's complement.
+
+
+Steps:
+1)Take the two's complement of the number to be subtracted. The two's complement of a number is obtained by inverting all the bits and then adding 1 to the result.
+2)Add the original number to the two's complement of the number to be subtracted using the Full Adder.
+3)The result will be the difference between the two numbers, and any carry-out from the most significant bit (MSB) of the Full Adder will indicate whether there was a borrow.
+
+Design for n-bit Difference:
+You would use n Full Adders connected in series to handle n-bit numbers. The carry-in of each Full Adder is the borrow from the previous stage.

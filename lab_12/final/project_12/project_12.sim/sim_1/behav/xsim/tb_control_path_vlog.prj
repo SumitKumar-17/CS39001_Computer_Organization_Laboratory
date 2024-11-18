@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/add_4.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/adder.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/and_gate.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/div.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/full_adder_1_bit.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/full_subtractor_1_bit.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/identity_gate.v" \
+"../../../../project_12.srcs/sources_1/imports/final/interfacing.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/left_shift_logical.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mult.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux16.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux2.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux32.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux4.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux8.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/not_gate.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/or_gate.v" \
+"../../../../project_12.srcs/sources_1/imports/final/register_bank.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/shift_right_arithmetic.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/shift_right_logical.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/sub_4.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/subtract.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/top_module.v" \
+"../../../../project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/xor_gate.v" \
+"../../../../project_12.srcs/sim_1/imports/final/tb_control_path.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

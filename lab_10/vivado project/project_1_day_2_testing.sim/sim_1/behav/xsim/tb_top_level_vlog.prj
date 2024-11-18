@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1_day_2_testing.srcs/sources_1/imports/testing/comm_c.v" \
+"../../../../project_1_day_2_testing.srcs/sources_1/imports/testing/error_correct.v" \
+"../../../../project_1_day_2_testing.srcs/sources_1/imports/testing/error_inject.v" \
+"../../../../project_1_day_2_testing.srcs/sources_1/imports/testing/secure-router.v" \
+"../../../../project_1_day_2_testing.srcs/sources_1/imports/testing/top_level.v" \
+"../../../../project_1_day_2_testing.srcs/sim_1/imports/testing/test_bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

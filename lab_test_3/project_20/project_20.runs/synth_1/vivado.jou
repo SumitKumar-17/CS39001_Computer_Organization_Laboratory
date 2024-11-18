@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Tue Oct 29 17:47:48 2024
+# Process ID: 12900
+# Current directory: C:/Users/Student/project_20/project_20.runs/synth_1
+# Command line: vivado.exe -log gcd_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gcd_module.tcl
+# Log file: C:/Users/Student/project_20/project_20.runs/synth_1/gcd_module.vds
+# Journal file: C:/Users/Student/project_20/project_20.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source gcd_module.tcl -notrace

@@ -1,0 +1,318 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Wed Oct 16 15:34:01 2024
+# Process ID: 2068
+# Current directory: C:/Users/Student/project_16/project_16.runs/synth_1
+# Command line: vivado.exe -log toplevel.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source toplevel.tcl
+# Log file: C:/Users/Student/project_16/project_16.runs/synth_1/toplevel.vds
+# Journal file: C:/Users/Student/project_16/project_16.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace
+Command: synth_design -top toplevel -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11052
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1264.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'toplevel' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/toplevel.v:19]
+INFO: [Synth 8-6157] synthesizing module 'CLKDiv' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/toplevel.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'CLKDiv' (1#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/toplevel.v:3]
+INFO: [Synth 8-6157] synthesizing module 'regbank' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/reg_bank.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'regbank' (2#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/reg_bank.v:3]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/alu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'adder32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:37]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:19]
+INFO: [Synth 8-6157] synthesizing module 'bit_adder' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'bit_adder' (3#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (4#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'adder32' (5#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/adder.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sub32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sub' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:19]
+INFO: [Synth 8-6157] synthesizing module 'bit_sub' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bit_sub' (6#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sub' (7#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'sub32' (8#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/sub.v:37]
+INFO: [Synth 8-6157] synthesizing module 'norg32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bitwise_nor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'org32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/org.v:18]
+INFO: [Synth 8-6157] synthesizing module 'org' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/org.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'org' (9#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/org.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'org32' (10#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/org.v:18]
+INFO: [Synth 8-6157] synthesizing module 'notg32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/notg.v:17]
+INFO: [Synth 8-6157] synthesizing module 'notg' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/notg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'notg' (11#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/notg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'notg32' (12#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/notg.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'norg32' (13#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bitwise_nor.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lui32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/load_upper.v:3]
+INFO: [Synth 8-6157] synthesizing module 'andg32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/andg.v:18]
+INFO: [Synth 8-6157] synthesizing module 'andg' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/andg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'andg' (14#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/andg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'andg32' (15#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/andg.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'lui32' (16#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/load_upper.v:3]
+INFO: [Synth 8-6157] synthesizing module 'xorg32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/xorg.v:18]
+INFO: [Synth 8-6157] synthesizing module 'xorg' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/xorg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'xorg' (17#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/xorg.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'xorg32' (18#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/xorg.v:18]
+INFO: [Synth 8-6157] synthesizing module 'slt32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/set_less_than.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'slt32' (19#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/set_less_than.v:3]
+INFO: [Synth 8-6157] synthesizing module 'sgt32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/set_greater_than.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sgt32' (20#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/set_greater_than.v:3]
+INFO: [Synth 8-6157] synthesizing module 'leftshiftlog' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/leftshiftlog.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux32.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux16' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux16.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux8' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux8.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux4' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (21#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux2.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux4' (22#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux4.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux8' (23#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux8.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux16' (24#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux16.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'mux32' (25#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/mux32.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'leftshiftlog' (26#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/leftshiftlog.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rightshiftlog' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/rightshiftlog.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'rightshiftlog' (27#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/rightshiftlog.v:3]
+INFO: [Synth 8-6157] synthesizing module 'rightshiftarith' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/rightshiftarith.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'rightshiftarith' (28#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/rightshiftarith.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hamm32' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/hamm.v:19]
+INFO: [Synth 8-6157] synthesizing module 'hamm_wt' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/hamm.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bit1adder' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit1adder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'bit1adder' (29#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit1adder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'bit2adder' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit2adder.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'bit2adder' (30#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit2adder.v:2]
+INFO: [Synth 8-6157] synthesizing module 'bit3adder' [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit3adder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bit3adder' (31#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/bit3adder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'hamm_wt' (32#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/hamm.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'hamm32' (33#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/hamm.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (34#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/alu.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'toplevel' (35#1) [C:/Users/Student/project_16/project_16.srcs/sources_1/imports/submission_22CS30056_22CS30015/toplevel.v:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1264.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1264.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1264.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1264.160 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Student/project_16/project_16.srcs/constrs_1/imports/submission_22CS30056_22CS30015/pin.xdc]
+Finished Parsing XDC File [C:/Users/Student/project_16/project_16.srcs/constrs_1/imports/submission_22CS30056_22CS30015/pin.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Student/project_16/project_16.srcs/constrs_1/imports/submission_22CS30056_22CS30015/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/toplevel_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/toplevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1331.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 1331.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 412   
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               16 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	              256 Bit	(16 X 16 bit)          RAMs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+---------------+-----------+----------------------+-------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives  | 
++------------+---------------+-----------+----------------------+-------------+
+|toplevel    | regs/regs_reg | Implied   | 16 x 16              | RAM32M x 6	 | 
++------------+---------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+---------------+-----------+----------------------+-------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives  | 
++------------+---------------+-----------+----------------------+-------------+
+|toplevel    | regs/regs_reg | Implied   | 16 x 16              | RAM32M x 6	 | 
++------------+---------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |    39|
+|5     |LUT3   |    52|
+|6     |LUT4   |    18|
+|7     |LUT5   |    77|
+|8     |LUT6   |   150|
+|9     |MUXF7  |     7|
+|10    |MUXF8  |     2|
+|11    |RAM32M |     6|
+|12    |FDRE   |    61|
+|13    |IBUF   |    17|
+|14    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 1331.777 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1331.777 ; gain = 67.617
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1340.434 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1340.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+85 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:52 . Memory (MB): peak = 1340.434 ; gain = 76.273
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Student/project_16/project_16.runs/synth_1/toplevel.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file toplevel_utilization_synth.rpt -pb toplevel_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 16 15:35:02 2024...

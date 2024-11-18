@@ -1,0 +1,7 @@
+Vivado Simulator 2020.1.1
+Time resolution is 1 ps
+Time = 0, d_in = 111010, d_out0 = xxxx, d_out1 = xxxx, d_out2 = xxxx, d_out3 = xxxx
+Time = 115, d_in = 111010, d_out0 = xxx0, d_out1 = xxx0, d_out2 = xxx0, d_out3 = xxx0
+Time = 135, d_in = 111010, d_out0 = xx00, d_out1 = xx00, d_out2 = xx00, d_out3 = xx10
+Time = 145, d_in = 111010, d_out0 = x000, d_out1 = x000, d_out2 = x000, d_out3 = x010
+Time = 155, d_in = 111010, d_out0 = 0000, d_out1 = 0000, d_out2 = 0000, d_out3 = 1010

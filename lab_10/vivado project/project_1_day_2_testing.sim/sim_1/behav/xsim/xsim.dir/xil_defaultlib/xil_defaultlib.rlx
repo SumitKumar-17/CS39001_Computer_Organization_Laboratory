@@ -1,0 +1,11 @@
+0.7
+2020.1.1
+Aug  5 2020
+23:19:43
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sim_1/imports/testing/test_bench.v,1725352621,verilog,,,,tb_top_level,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/comm_c.v,1725352621,verilog,,C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/error_correct.v,,comm_c,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/error_correct.v,1725354360,verilog,,C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/error_inject.v,,error_correct,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/error_inject.v,1725352621,verilog,,C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/secure-router.v,,error_inject,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/secure-router.v,1725354340,verilog,,C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/top_level.v,,secure_router,,,,,,,,
+C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sources_1/imports/testing/top_level.v,1725352621,verilog,,C:/Users/Student/Desktop/computer_organisation_laboratory/week_6/day_2/project_1_day_2_testing/project_1_day_2_testing.srcs/sim_1/imports/testing/test_bench.v,,top_level,,,,,,,,

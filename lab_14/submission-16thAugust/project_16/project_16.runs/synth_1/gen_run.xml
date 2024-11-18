@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1729073037">
+  <File Type="PA-TCL" Name="toplevel.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="toplevel_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="toplevel_reports.tcl"/>
+  <File Type="RDS-RDS" Name="toplevel.vds"/>
+  <File Type="RDS-UTIL" Name="toplevel_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="toplevel_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="toplevel.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="toplevel_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="toplevel_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/adder.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/alu.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/andg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/andg.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/bit1adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/bit1adder.v"/>
+        <Attr Name="ImportTime" Val="1728981557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/bit2adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/bit2adder.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/bit3adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/bit3adder.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/bitwise_nor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/bitwise_nor.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/hamm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/hamm.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/leftshiftlog.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/leftshiftlog.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/load_upper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/load_upper.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mux16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mux16.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mux2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mux2.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mux32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mux32.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mux4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mux4.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mux8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mux8.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/notg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/notg.v"/>
+        <Attr Name="ImportTime" Val="1728981557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/org.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/org.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/reg_bank.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/reg_bank.v"/>
+        <Attr Name="ImportTime" Val="1728992619"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/rightshiftarith.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/rightshiftarith.v"/>
+        <Attr Name="ImportTime" Val="1728981557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/rightshiftlog.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/rightshiftlog.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/set_greater_than.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/set_greater_than.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/set_less_than.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/set_less_than.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/sub.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/sub.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/xorg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/xorg.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/toplevel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/toplevel.v"/>
+        <Attr Name="ImportTime" Val="1729068676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/div.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/div.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/mult.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/mult.v"/>
+        <Attr Name="ImportTime" Val="1728981558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/outeqinp.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/outeqinp.v"/>
+        <Attr Name="ImportTime" Val="1728981557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/submission_22CS30056_22CS30015/topmod.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/topmod.v"/>
+        <Attr Name="ImportTime" Val="1728981557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="toplevel"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/submission_22CS30056_22CS30015/pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/COA/prevISA-part-1/ISA_part_1_submmission/ISA_part_1_submmission/submission_22CS30056_22CS30015/pin.xdc"/>
+        <Attr Name="ImportTime" Val="1729068689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,57 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/add_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module adder_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/and_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and_gate
+INFO: [VRFC 10-311] analyzing module and_gate_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/full_adder_1_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_1_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/full_subtractor_1_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_subtractor_1_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/identity_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module identity_gate
+INFO: [VRFC 10-311] analyzing module identity_gate_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/final/interfacing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toplevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/left_shift_logical.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module left_shift_logical_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/mux8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/not_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module not_gate
+INFO: [VRFC 10-311] analyzing module not_gate_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/or_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_gate
+INFO: [VRFC 10-311] analyzing module or_gate_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/final/register_bank.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_bank
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/shift_right_arithmetic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_right_arithmetic_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/shift_right_logical.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module right_shift_logical_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/sub_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtract_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/subtract.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtract
+INFO: [VRFC 10-311] analyzing module subtract_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module K_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sources_1/imports/K_ALU_Verilog Codes/xor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_gate
+INFO: [VRFC 10-311] analyzing module xor_gate_32_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/project_12/project_12.srcs/sim_1/imports/final/tb_control_path.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

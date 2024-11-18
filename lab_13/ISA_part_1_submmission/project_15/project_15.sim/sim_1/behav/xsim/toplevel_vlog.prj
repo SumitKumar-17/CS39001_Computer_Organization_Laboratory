@@ -1,0 +1,33 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_15.srcs/sources_1/imports/submission/adder.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/alu.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/andg.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/bit1adder.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/bit2adder.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/bit3adder.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/bitwise_nor.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/hamm.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/leftshiftlog.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/load_upper.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/mux16.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/mux2.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/mux32.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/mux4.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/mux8.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/notg.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/org.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/reg_bank.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/rightshiftarith.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/rightshiftlog.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/set_greater_than.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/set_less_than.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/sub.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/xorg.v" \
+"../../../../project_15.srcs/sources_1/imports/submission/toplevel.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,19 @@
+Vivado Simulator 2020.1.1
+Time resolution is 1 ps
+A =  34, B =   3, ALU_Function =  0, Z =  37
+A =  34, B =   3, ALU_Function =  1, Z =  31
+A =  34, B =   3, ALU_Function =  2, Z = 102
+A =  34, B =   3, ALU_Function =  3, Z =  11
+A =  34, B =   3, ALU_Function =  4, Z =   2
+A =  34, B =   3, ALU_Function =  5, Z =  35
+A =  34, B =   3, ALU_Function =  6, Z =  33
+A =  34, ALU_Function =  7, Z = 221
+A =  34, ALU_Function =  8, Z =  34
+B =   3, ALU_Function =  9, Z =   3
+A =  34, B =   3, ALU_Function = 10, Z =  16
+A =  34, B =   3, ALU_Function = 11, Z =   4
+A =  34, B =   3, ALU_Function = 12, Z =   4
+A =  34, ALU_Function = 13, Z =  38
+A =  34, ALU_Function = 14, Z =  30
+A =  34, ALU_Function = 15, Z =   2
+$finish called at time : 160 ns : File "C:/Users/Student/project_10/project_10.srcs/sim_1/imports/K_ALU/test_bench.v" Line 104

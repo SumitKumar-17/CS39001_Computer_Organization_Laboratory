@@ -1,0 +1,45 @@
+Vivado Simulator 2020.1.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8879ca9df55745fda54918e574b26ba7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_behav xil_defaultlib.test_alu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.bit_adder
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.adder32
+Compiling module xil_defaultlib.bit_sub
+Compiling module xil_defaultlib.sub
+Compiling module xil_defaultlib.sub32
+Compiling module xil_defaultlib.org
+Compiling module xil_defaultlib.org32
+Compiling module xil_defaultlib.notg
+Compiling module xil_defaultlib.notg32
+Compiling module xil_defaultlib.norg32
+Compiling module xil_defaultlib.andg
+Compiling module xil_defaultlib.andg32
+Compiling module xil_defaultlib.lui32
+Compiling module xil_defaultlib.xorg
+Compiling module xil_defaultlib.xorg32
+Compiling module xil_defaultlib.slt32
+Compiling module xil_defaultlib.sgt32
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.mux16
+Compiling module xil_defaultlib.mux32
+Compiling module xil_defaultlib.leftshiftlog
+Compiling module xil_defaultlib.rightshiftlog
+Compiling module xil_defaultlib.rightshiftarith
+Compiling module xil_defaultlib.bit1adder
+Compiling module xil_defaultlib.bit2adder
+Compiling module xil_defaultlib.bit3adder
+Compiling module xil_defaultlib.hamm_wt
+Compiling module xil_defaultlib.hamm32
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.test_alu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_alu_behav
